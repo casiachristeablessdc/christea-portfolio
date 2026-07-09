@@ -86,4 +86,8 @@ function Experience() {
           </div>
         </div>
       </div>
-    </section
+    </section>
+  );
+}
+
+export default Experience;

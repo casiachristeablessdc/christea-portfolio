@@ -6,8 +6,8 @@ const contactItems = [
   },
   {
     label: "GitHub",
-    value: "github.com",
-    href: "https://github.com/",
+    value: "github.com/casiachristeablessdc",
+    href: "https://github.com/casiachristeablessdc",
   },
   {
     label: "LinkedIn",
@@ -22,7 +22,7 @@ function Contact() {
       <div className="container contact-grid">
         <div className="section-heading">
           <p className="eyebrow">Contact</p>
-          <h2>Let's build something meaningful together</h2>
+          <h2>Let&apos;s build something meaningful together</h2>
         </div>
 
         <div className="contact-card">
@@ -34,7 +34,7 @@ function Contact() {
 
           <div className="contact-list">
             {contactItems.map((item) => (
-              {item.href}
+              <a key={item.label} href={item.href} target="_blank" rel="noreferrer">
                 <span>{item.label}</span>
                 <strong>{item.value}</strong>
               </a>
