@@ -1,16 +1,16 @@
-import Navbar from "./components/Navbar";
-
-function App() {
+function Navbar() {
   return (
-    <>
-      <Navbar />
+    <nav className="navbar">
+      <h2 className="logo">Christea</h2>
 
-      <main>
-        <h1>Portfolio Under Construction</h1>
-        <p>Building my portfolio with React and Vite.</p>
-      </main>
-    </>
+      <ul className="nav-links">
+        <li>About</li>
+        <li>Experience</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
   );
 }
 
-export default App;
+export default Navbar;
