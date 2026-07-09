@@ -1,8 +1,6 @@
 const navLinks = [
+  { label: "Work", href: "#projects" },
   { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -11,8 +9,8 @@ function Navbar() {
     <header className="navbar">
       <div className="container nav-inner">
         <a className="brand" href="#home">
-          <span className="brand-mark">C</span>
-          <span>Christea</span>
+          <span className="brand-mark">44</span>
+          <span className="brand-name">Christea</span>
         </a>
 
         <nav className="nav-links" aria-label="Primary navigation">
@@ -22,6 +20,12 @@ function Navbar() {
             </a>
           ))}
         </nav>
+      </div>
+
+      <div className="progress-bar" aria-hidden="true">
+        <span className="progress-segment progress-green" />
+        <span className="progress-segment progress-yellow" />
+        <span className="progress-segment progress-violet" />
       </div>
     </header>
   );

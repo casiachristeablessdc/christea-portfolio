@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="app-shell">
+    <div className="app-shell bg-background text-foreground">
       <Navbar />
 
       <main>

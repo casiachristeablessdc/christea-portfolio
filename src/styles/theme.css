@@ -1,0 +1,9 @@
+:root {
+  --background: #0c0c0c;
+  --foreground: #f0ede8;
+  --card: #141414;
+  --accent: #e8001d;
+  --accent-2: #a855f7;
+  --border: rgba(255, 255, 255, 0.07);
+  --radius: 0.125rem;
+}

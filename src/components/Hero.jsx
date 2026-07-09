@@ -2,41 +2,58 @@ function Hero() {
   return (
     <section id="home" className="hero section">
       <div className="container hero-grid">
-        <div className="hero-content">
-          <p className="eyebrow">Computer Engineering Student</p>
-          <h1>Christea Bless DC. Casia</h1>
-          <p className="hero-subtitle">
-            Computer Engineering Student | Web Developer | IT Solutions Professional
-          </p>
-          <p className="hero-copy">
-            I build thoughtful digital experiences at the intersection of
-            engineering, software development, and practical business solutions.
+        <div className="hero-copy">
+          <div className="hero-meta">
+            <p className="eyebrow">POSITION — P1</p>
+            <span className="hero-role">FULL-STACK ENGINEER</span>
+          </div>
+
+          <h1>
+            <span className="hero-name-light">Christea</span>
+            <span className="hero-name-accent">Casia</span>
+          </h1>
+
+          <p className="hero-description">
+            I build responsive digital experiences and modern web systems with
+            a focus on speed, clarity, and strong product intuition.
           </p>
 
-          <div className="button-group">
+          <div className="hero-actions">
             <a className="btn btn-primary" href="#projects">
               View Projects
             </a>
             <a className="btn btn-secondary" href="/Christea-Resume.txt" download>
               Download Resume
             </a>
-            <a className="btn btn-ghost" href="https://github.com/" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
-            <a className="btn btn-ghost" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-              LinkedIn
-            </a>
           </div>
         </div>
 
-        <div className="hero-card">
-          <p className="eyebrow">Currently focused on</p>
+        <aside className="hero-card">
+          <p className="eyebrow">PERFORMANCE METRICS</p>
+
+          <div className="stats-grid">
+            <div className="stat-item">
+              <strong>12+</strong>
+              <span>Projects</span>
+            </div>
+
+            <div className="stat-item">
+              <strong>₱2.5M</strong>
+              <span>Impact</span>
+            </div>
+
+            <div className="stat-item">
+              <strong>3</strong>
+              <span>Systems</span>
+            </div>
+          </div>
+
           <ul>
             <li>React and Vite web applications</li>
             <li>AI-powered product experiences</li>
             <li>IT solutions and project coordination</li>
           </ul>
-        </div>
+        </aside>
       </div>
     </section>
   );
