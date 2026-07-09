@@ -14,6 +14,7 @@ function About() {
             database systems. My work is grounded in building reliable solutions that
             are both technically strong and easy for users to engage with.
           </p>
+
           <p>
             I am passionate about creating digital tools that solve real-world needs,
             from campus platforms to smart analytics systems and AI-powered services.
@@ -24,7 +25,9 @@ function About() {
           <h3>Education</h3>
           <p className="muted">Bulacan State University</p>
           <p>Bachelor of Science in Computer Engineering</p>
-          <h3>Career focus</h3>
+
+          <h3>Career Focus</h3>
+
           <p>
             I aim to grow into a professional who can bridge technical execution,
             innovation, and business impact through modern software development.

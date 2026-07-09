@@ -9,7 +9,13 @@ const skillGroups = [
   },
   {
     title: "Strengths",
-    items: ["Web Development", "UI/UX", "AI Applications", "Database Systems", "Technical Design"],
+    items: [
+      "Web Development",
+      "UI/UX",
+      "AI Applications",
+      "Database Systems",
+      "Technical Design",
+    ],
   },
 ];
 
@@ -26,6 +32,7 @@ function Skills() {
           {skillGroups.map((group) => (
             <article key={group.title} className="skill-card">
               <h3>{group.title}</h3>
+
               <ul>
                 {group.items.map((item) => (
                   <li key={item}>{item}</li>

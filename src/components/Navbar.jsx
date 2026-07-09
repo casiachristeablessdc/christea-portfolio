@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="container nav-inner">
-        <a className="brand" href="#home">
+        ">
           <span className="brand-mark">C</span>
           <span>Christea</span>
         </a>
@@ -18,11 +18,7 @@ function Navbar() {
         <nav className="nav-links" aria-label="Primary navigation">
           {navLinks.map((link) => (
             <a key={link.label} href={link.href}>
-              {link.label}
-            </a>
-          ))}
-        </nav>
-      </div>
+              {
     </header>
   );
 }

@@ -31,7 +31,9 @@ function Projects() {
       <div className="container">
         <div className="section-heading">
           <p className="eyebrow">Projects</p>
-          <h2>Selected work that blends technology, design, and impact</h2>
+          <h2>
+            Selected work that blends technology, design, and impact
+          </h2>
         </div>
 
         <div className="projects-grid">
@@ -51,12 +53,9 @@ function Projects() {
               </div>
 
               <div className="button-group project-actions">
-                <a className="btn btn-primary" href={project.github} target="_blank" rel="noreferrer">
-                  GitHub
-                </a>
-                <a className="btn btn-secondary" href={project.demo}>
-                  Live Demo
-                </a>
+                {project.github}
+
+                {project.demo}
               </div>
             </article>
           ))}

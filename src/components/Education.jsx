@@ -9,16 +9,21 @@ function Education() {
 
         <div className="education-card">
           <div>
-            <p className="eyebrow">2021 — Present</p>
+            <p className="eyebrow">2022 — Present</p>
             <h3>Bulacan State University</h3>
-            <p className="muted">Bachelor of Science in Computer Engineering</p>
+            <p className="muted">
+              Bachelor of Science in Computer Engineering
+            </p>
           </div>
+
           <div className="education-details">
             <p>
-              Building a strong foundation in embedded systems, software development,
-              networking, and practical engineering problem-solving while pursuing
-              hands-on experience in modern web and AI technologies.
+              Building a strong foundation in embedded systems, software
+              development, networking, and practical engineering
+              problem-solving while pursuing hands-on experience in modern web
+              and AI technologies.
             </p>
+
             <ul>
               <li>System design and engineering fundamentals</li>
               <li>Software and web development practice</li>
