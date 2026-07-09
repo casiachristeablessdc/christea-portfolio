@@ -1,10 +1,15 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div>
-      <h1>Christea Bless DC. Casia</h1>
-      <p>Computer Engineering Student</p>
-      <p>Portfolio Website Coming Soon 🚀</p>
-    </div>
+    <>
+      <Navbar />
+
+      <main>
+        <h1>Portfolio Under Construction</h1>
+        <p>Building my portfolio with React and Vite.</p>
+      </main>
+    </>
   );
 }
 
